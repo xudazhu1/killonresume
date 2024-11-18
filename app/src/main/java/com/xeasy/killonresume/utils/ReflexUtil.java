@@ -1,4 +1,4 @@
-package com.xeasy.fingerprintpress.utils;
+package com.xeasy.killonresume.utils;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
@@ -78,6 +78,17 @@ public class ReflexUtil {
             clazzTemp = clazzTemp.getSuperclass();
         }
         return null;
+    }
+
+    public static Object getField4Obj(Class<?> clazz, Object object, String fieldName) {
+        try {
+            Field declaredField = clazz.getDeclaredField(fieldName);
+            declaredField.setAccessible(true);
+            return declaredField.get(object);
+        } catch (Exception e) {
+            e.printStackTrace();
+            return null;
+        }
     }
 
     public static Object getField4Obj(Object object, String fieldName) {

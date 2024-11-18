@@ -1,6 +1,5 @@
-package com.xeasy.fingerprintpress.utils;
+package com.xeasy.killonresume.utils;
 
-import de.robv.android.xposed.XposedBridge;
 import de.robv.android.xposed.XposedHelpers;
 
 public class XposedUtil {

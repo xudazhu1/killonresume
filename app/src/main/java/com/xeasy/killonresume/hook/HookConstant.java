@@ -1,4 +1,4 @@
-package com.xeasy.fingerprintpress.hook;
+package com.xeasy.killonresume.hook;
 
 public class HookConstant {
     /**

@@ -1,4 +1,4 @@
-package com.xeasy.fingerprintpress;
+package com.xeasy.killonresume;
 
 import org.junit.Test;
 

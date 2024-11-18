@@ -1,4 +1,4 @@
-package com.xeasy.fingerprintpress.utils;
+package com.xeasy.killonresume.utils;
 
 public class JNIUtils {
 
